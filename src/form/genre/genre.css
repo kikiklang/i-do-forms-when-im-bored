@@ -1,0 +1,21 @@
+.genre {
+  margin-bottom: var(--spacing-0);
+}
+
+.form-inputs {
+  display: flex;
+}
+
+.form-inputs > div {
+  display: flex;
+  align-items: center;
+  margin-right: var(--spacing-3);
+}
+
+.form-inputs > div > input {
+  margin-right: var(--spacing-00);
+}
+
+.form-inputs > div > label {
+  margin-bottom: 0;
+}

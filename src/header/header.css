@@ -1,0 +1,19 @@
+/************** HEADER **************/
+.header {
+  margin: 4rem 0;
+  text-align: center;
+}
+
+.header-title {
+  color: var(--black);
+  font-size: var(--font6);
+  font-family: var(--font-bold);
+}
+
+.header-subtitle {
+  color: var(--black);
+  font-size: var(--font2);
+  font-family: var(--font-regular);
+  letter-spacing: var(--space3);
+  text-indent: var(--space3);
+}

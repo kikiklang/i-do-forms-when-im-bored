@@ -1,0 +1,106 @@
+@import './genre/genre.css';
+@import './names/names.css';
+@import './birthdate/birthdate.css';
+@import './email/email.css';
+@import './password/password.css';
+
+form {
+  max-width: 800px;
+  margin: var(--spacing-5) auto;
+  padding: var(--spacing-4) var(--spacing-4);
+  background-color: var(--light-grey);
+  border: 6px solid var(--black);
+  border-radius: 5px;
+}
+
+fieldset {
+  padding: 0;
+  border: 0;
+}
+
+label,
+legend {
+  margin-bottom: var(--spacing-00);
+  color: var(--black);
+  font-size: var(--scale-1);
+  font-family: var(--font-bold);
+}
+
+input {
+  height: 48px;
+  padding-left: var(--spacing-00);
+  font-size: var(--scale-1);
+  border: 3px solid var(--black);
+  border-radius: 5px;
+  outline: transparent;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input:focus,
+input[type="radio"]:focus {
+  border: 3px solid var(--blue);
+}
+
+input[type=radio] {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border: 3px solid var(--black);
+  border-radius: 50%;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+input[type="radio"]:hover {
+  cursor: pointer;
+}
+
+input[type="radio"]:checked {
+  background-color: var(--black);
+}
+
+.submit {
+  margin: var(--spacing-0) auto 0;
+  padding: var(--spacing-000) var(--spacing-4);
+  color: var(--black);
+  font-size: var(--scale-1);
+  font-family: var(--font-bold);
+  background-color: white;
+  border: none;
+  border: 3px solid var(--black);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.submit:hover {
+  border-color: var(--green);
+}
+
+@media screen and (max-width: 750px) {
+  form {
+    border: 0;
+  }
+
+  .name-section {
+    flex-direction: column;
+  }
+
+  .form-firstname {
+    margin-bottom: var(--spacing-3);
+  }
+
+  .form-firstname,
+  .form-lastname {
+    width: 100%;
+  }
+}

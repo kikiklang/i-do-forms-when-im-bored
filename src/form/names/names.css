@@ -1,0 +1,17 @@
+.name-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-0);
+}
+
+.form-firstname,
+.form-lastname {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+}
+
+.firstname-validation,
+.lastname-validation {
+  margin-top: var(--spacing-000);
+}

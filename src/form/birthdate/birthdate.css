@@ -1,0 +1,31 @@
+.birthdate {
+  margin-bottom: var(--spacing-0);
+}
+
+.birthday-input,
+.birthmonth-input,
+.birthyear-input {
+  width: 100px;
+  margin-right: var(--spacing-3);
+}
+
+.form-birthdate > label {
+  display: none;
+}
+
+.birthdate-validation {
+  margin-top: var(--spacing-000);
+}
+
+@media screen and (max-width: 550px) {
+  .form-birthdate {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .birthday-input,
+  .birthmonth-input,
+  .birthyear-input {
+    margin-right: 0;
+  }
+}
