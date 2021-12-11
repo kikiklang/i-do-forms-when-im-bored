@@ -1,5 +1,5 @@
 .genre {
-  margin-bottom: var(--spacing-0);
+  margin-bottom: var(--space-0);
 }
 
 .form-inputs {
@@ -9,11 +9,11 @@
 .form-inputs > div {
   display: flex;
   align-items: center;
-  margin-right: var(--spacing-3);
+  margin-right: var(--space-3);
 }
 
 .form-inputs > div > input {
-  margin-right: var(--spacing-00);
+  margin-right: var(--space-00);
 }
 
 .form-inputs > div > label {

@@ -1,7 +1,6 @@
 .name-section {
   display: flex;
   justify-content: space-between;
-  margin-bottom: var(--spacing-0);
 }
 
 .form-firstname,
@@ -9,9 +8,10 @@
   display: flex;
   flex-direction: column;
   width: 320px;
+  margin-bottom: var(--space-0);
 }
 
 .firstname-validation,
 .lastname-validation {
-  margin-top: var(--spacing-000);
+  margin-top: var(--space-000);
 }

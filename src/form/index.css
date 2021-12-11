@@ -5,9 +5,9 @@
 @import './password/password.css';
 
 form {
-  max-width: 800px;
-  margin: var(--spacing-5) auto;
-  padding: var(--spacing-4) var(--spacing-4);
+  max-width: 768px;
+  margin: var(--space-5) auto;
+  padding: var(--space-4) var(--space-4);
   background-color: var(--light-grey);
   border: 6px solid var(--black);
   border-radius: 5px;
@@ -20,16 +20,16 @@ fieldset {
 
 label,
 legend {
-  margin-bottom: var(--spacing-00);
+  margin-bottom: var(--space-00);
   color: var(--black);
-  font-size: var(--scale-1);
+  font-size: var(--scale-0);
   font-family: var(--font-bold);
 }
 
 input {
   height: 48px;
-  padding-left: var(--spacing-00);
-  font-size: var(--scale-1);
+  padding-left: var(--space-00);
+  font-size: var(--scale-0);
   border: 3px solid var(--black);
   border-radius: 5px;
   outline: transparent;
@@ -69,8 +69,8 @@ input[type="radio"]:checked {
 }
 
 .submit {
-  margin: var(--spacing-0) auto 0;
-  padding: var(--spacing-000) var(--spacing-4);
+  margin: var(--space-0) auto 0;
+  padding: var(--space-000) var(--space-4);
   color: var(--black);
   font-size: var(--scale-1);
   font-family: var(--font-bold);
@@ -86,17 +86,13 @@ input[type="radio"]:checked {
   border-color: var(--green);
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   form {
     border: 0;
   }
 
   .name-section {
     flex-direction: column;
-  }
-
-  .form-firstname {
-    margin-bottom: var(--spacing-3);
   }
 
   .form-firstname,

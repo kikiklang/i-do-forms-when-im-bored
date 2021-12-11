@@ -1,7 +1,7 @@
 .form-email {
   display: flex;
   flex-direction: column;
-  margin-bottom: var(--spacing-0);
+  margin-bottom: var(--space-0);
 }
 
 .email-input {
@@ -9,5 +9,5 @@
 }
 
 .email-validation {
-  margin-top: var(--spacing-000);
+  margin-top: var(--space-000);
 }

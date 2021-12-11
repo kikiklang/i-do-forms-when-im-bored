@@ -6,13 +6,13 @@
 
 .header-title {
   color: var(--black);
-  font-size: var(--font6);
+  font-size: var(--scale-3);
   font-family: var(--font-bold);
 }
 
 .header-subtitle {
   color: var(--black);
-  font-size: var(--font2);
+  font-size: var(--scale-0);
   font-family: var(--font-regular);
   letter-spacing: var(--space3);
   text-indent: var(--space3);
